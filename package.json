@@ -1,0 +1,30 @@
+{
+  "name": "bajo-codec",
+  "version": "0.0.1",
+  "description": "Codecs for Bajo Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/bajo-codec.git"
+  },
+  "keywords": [
+    "codec",
+    "encode",
+    "decode",
+    "bajo",
+    "framework"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/bajo-codec/issues"
+  },
+  "homepage": "https://github.com/ardhi/bajo-codec#readme",
+  "dependencies": {
+    "kea-nmea": "^0.1.1"
+  }
+}
