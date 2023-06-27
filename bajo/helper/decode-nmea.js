@@ -1,4 +1,4 @@
-import { decode } from 'kea-nmea'
+import { decode } from 'kea-nmea' // why loading this take a while?
 
 async function decodeNmea ({ message, sentences, transformer } = {}) {
   const { _ } = this.bajo.helper

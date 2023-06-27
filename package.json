@@ -1,6 +1,6 @@
 {
   "name": "bajo-codec",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Codecs for Bajo Framework",
   "main": "index.js",
   "scripts": {
