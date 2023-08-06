@@ -1,0 +1,4 @@
+{
+  "alias": "codec",
+  "dependencies": ["bajo-common-db"]
+}

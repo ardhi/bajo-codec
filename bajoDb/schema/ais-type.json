@@ -1,0 +1,17 @@
+{
+  "connection": "memory",
+  "properties": [{
+    "name": "name",
+    "type": "string",
+    "length": 30,
+    "required": true,
+    "index": true
+  }, {
+    "name": "color",
+    "type": "string",
+    "length": 20
+  }, {
+    "name": "lookup",
+    "type": "object"
+  }]
+}

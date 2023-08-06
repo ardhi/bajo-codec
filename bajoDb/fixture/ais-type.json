@@ -1,0 +1,56 @@
+[
+  {
+    "id": "CARGO",
+    "name": "Cargo Vessels",
+    "color": "#92ea96",
+    "lookup": [70,71,72,73,74,75,76,77,78,79]
+  },
+  {
+    "id": "TANKER",
+    "name": "Tankers",
+    "color": "#fd0002",
+    "lookup": [80,81,82,83,84,85,86,87,88,89]
+  },
+  {
+    "id": "PASSENGER",
+    "name": "Passenger Vessels",
+    "color": "#0000fe",
+    "lookup": [60,61,62,63,64,65,66,67,58,69]
+  },
+  {
+    "id": "HSC",
+    "name": "High Speed Craft",
+    "color": "#fdfe02",
+    "lookup": [40,41,42,43,44,45,46,47,48,49]
+  },
+  {
+    "id": "TUGS",
+    "name": "Tugs & Special Craft",
+    "color": "#01ffff",
+    "lookup": [31,32,33,34,35,50,51,52,53,54,55,56,57,58,59]
+  },
+  {
+    "id": "FISHING",
+    "name": "Fishing",
+    "color": "#ffa07a",
+    "lookup": [30]
+  },
+  {
+    "id": "PLEASURE",
+    "name": "Pleasure Craft",
+    "color": "#ff00fe",
+    "lookup": [36,37]
+  },
+  {
+    "id": "NAVAID",
+    "name": "Navigation Aids",
+    "color": "#fdc1cd",
+    "lookup": []
+  },
+  {
+    "id": "UNSPEC",
+    "name": "Unspecified Ships",
+    "color": "#d2d3d8",
+    "lookup": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,90,91,92,93,94,95,96,97,98,99]
+  }
+]
