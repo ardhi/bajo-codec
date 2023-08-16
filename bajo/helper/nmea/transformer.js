@@ -116,7 +116,7 @@ async function transformer () {
       _omit: ['units'],
       windAngle: 'angle',
       speed: {
-        value: (val, rec) => rec.units === 'N' ? (val * 1.852) : (recs.units === 'M' ? (val * 3.6) : val)
+        value: (val, rec) => rec.units === 'N' ? (val * 1.852) : (rec.units === 'M' ? (val * 3.6) : val)
       },
       status: {
         key: 'valid',
@@ -156,9 +156,9 @@ async function transformer () {
           })
         }
         if ([24, 5].includes(rec.type)) {
-          const country = find(countries, c => (c.mmsi || []).includes(parseInt(nRec.mmsi.slice(0, 3)))) || {}
-          const cls = find(aisTypes, c => c.lookup.includes(rec.typeAndCargo)) || {}
-          nRec.type = cls.id || 'UNSPEC'
+          const country = find(countries, c => (c.mmsi ?? []).includes(parseInt(nRec.mmsi.slice(0, 3)))) ?? {}
+          const cls = find(aisTypes, c => c.lookup.includes(rec.typeAndCargo)) ?? {}
+          nRec.type = cls.id ?? 'UNSPEC'
           nRec.flag = country.id
         }
       }
