@@ -1,6 +1,5 @@
 async function transformer () {
-  const { importPkg } = this.bajo.helper
-  const { padStart, find, map, each } = await importPkg('lodash-es')
+  const { padStart, find, map, each } = this.bajo.helper._
   const { recordFind } = this.bajoDb.helper
   const aisTypes = await recordFind('CodecAisType')
   const countries = await recordFind('CdbCountry')

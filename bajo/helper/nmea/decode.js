@@ -1,8 +1,7 @@
 import { decode } from 'kea-nmea' // why loading this take a while?
 
 async function decodeNmea ({ message, sentences, transformer } = {}) {
-  const { importPkg } = this.bajo.helper
-  const { map } = await importPkg('lodash-es')
+  const { map } = this.bajo.helper._
   const sid = message.slice(3, 6)
   if (sentences && !sentences.includes(sid)) return
   let packet
